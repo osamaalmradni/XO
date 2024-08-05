@@ -1,59 +1,63 @@
-Tic-Tac-Toe Game
-Welcome to the XO (Tic-Tac-Toe) Game! This application allows you to play a classic Tic-Tac-Toe game with a graphical interface, track player scores, and manage game state.
+# Tic-Tac-Toe Game
 
-Features
-Player Setup: Input player names and choose their symbols (X or O).
-Game Board: Play the game on a 3x3 grid.
-Score Tracking: Track and display player scores.
-Game Management: Reset the game, handle win/draw conditions, and save player scores.
-Installation
-Clone the Repository:
+A simple, interactive Tic-Tac-Toe game with a graphical user interface built using Python and Tkinter.
 
-bash
-Code kopieren
-git clone https://github.com/yourusername/xo.git
-Navigate to the Project Directory:
+## Description
 
-bash
-Code kopieren
-cd xo
-Install Required Python Packages:
-Ensure you have tkinter installed (usually included with Python installations).
+This Tic-Tac-Toe game is designed using the Model-View-Controller (MVC) architectural pattern. It features a clean, user-friendly interface and includes functionalities such as:
 
-Usage
-Run the Application:
+- Player name and symbol customization
+- Score tracking across multiple games
+- Game state persistence (scores are saved between sessions)
 
-bash
-Code kopieren
-python main.py
-The main window will open, allowing you to start or quit the game.
+## Features
 
-Start the Game:
+- Main menu with start and quit options
+- Player setup screen for entering names and choosing symbols
+- Interactive game board
+- Score display
+- End-game messages with options to play again or quit
+- Error handling for invalid inputs
 
-Click "Start the game" to input player names and symbols.
-Enter valid names (letters only) and distinct single-letter symbols.
-Click "Submit" to begin the game.
-Play the Game:
+## Requirements
 
-Click on any cell of the 3x3 grid to make a move.
-The game will automatically check for a win or draw and update the scores.
-End of Game:
+- Python 3.x
+- Tkinter (usually comes pre-installed with Python)
 
-After a win or draw, a message box will prompt you to play again or quit.
-Quit the Game:
+## Installation
 
-Click "Quit the game" from the main menu or close the window.
-Dependencies
-tkinter: For creating the GUI.
-License
-This project is licensed under the MIT License.
+1. Clone the repository:
+git clone https://github.com/osamaalmradni/tic-tac-toe.git
+Copy2. Navigate to the project directory:
+cd tic-tac-toe
+Copy
+## Usage
 
-Author
-Osama Almaradni
+Run the game by executing the following command in the terminal:
+python Tic-Tac-Toe.py
+Copy
+Follow the on-screen instructions to set up players and play the game.
 
-GitHub: osamaalmradni
+## Game Rules
 
-Feel free to contribute to this project by submitting issues or pull requests on GitHub. Enjoy playing Tic-Tac-Toe!
+1. The game is played on a 3x3 grid.
+2. Players take turns placing their symbol (X or O) in empty cells.
+3. The first player to get 3 of their symbols in a row (horizontally, vertically, or diagonally) wins.
+4. If all cells are filled and no player has won, the game is a draw.
 
-Note: Ensure that the Python environment has tkinter installed. The scores are saved in scores.json and will be deleted upon quitting the game.
+## Project Structure
 
+- `Tic-Tac-Toe.py`: Contains the entire game logic, including the Model, View, and Controller classes.
+
+## Future Improvements
+
+- Add an AI opponent option
+- Implement difficulty levels for AI
+- Create a larger grid size option (e.g., 4x4, 5x5)
+- Add sound effects and animations
+
+## Author
+
+Mohammad Osama Almaradni
+
+GitHub: [https://github.com/osamaalmradni](https://github.com/osamaalmradni)
